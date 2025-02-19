@@ -2,6 +2,7 @@ import Createlist from "./components/Createlist";
 import FoodHeading from "./components/foodHeading";
 import Container from "./components/Container";
 import Navbar from "./components/Navbar";
+import FoodInput from "./components/FoodInput";
 
 
 
@@ -12,10 +13,10 @@ function App() {
   return (
       <div>
       <Navbar></Navbar>
-      <br></br>
       <Container>
-      <FoodHeading headingname={headingname}></FoodHeading>
-      <Createlist foodname={foodname}></Createlist> 
+        <FoodHeading headingname={headingname}></FoodHeading>
+        <FoodInput></FoodInput>
+        <Createlist foodname={foodname}></Createlist> 
       </Container>
      </div>
   );

@@ -6,7 +6,7 @@ function Createlist  ({foodname}) {
   return (<>
     <ul className="list-group">
       {foodname.map((item) => (
-        <Listitem key={item.id} food={item}/> 
+        <Listitem key={item} food={item}/> 
         ))}
     </ul>
   </>
