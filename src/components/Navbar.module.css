@@ -1,0 +1,14 @@
+#navbar {
+  font-size: 15px;
+  color: white;
+}
+
+
+.hoverit:hover {
+  border: 0px;
+  border-radius: 4px;
+  padding: 2px 5px;
+  background-color: #dc3545 !important;
+  color: white !important;
+  transition: 0.1s;
+}
