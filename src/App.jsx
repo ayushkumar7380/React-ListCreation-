@@ -5,7 +5,7 @@ import Container from "./components/Container";
 
 
 function App() {
-  const headingname = "Healty Food list";
+  const headingname = "Healthy Food list";
   const foodname =["Vegetable","Pulse","Rice","Paneer","Milk","Fruits","Ghee"];
 
   return <Container>
